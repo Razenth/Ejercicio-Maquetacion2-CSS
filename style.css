@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    height: 100%;
+}
+
+:root{
+    --Softblue: hsl(215, 51%, 70%);
+    --Cyan: hsl(178, 100%, 50%);
+    --Verydarkblue1: hsl(217, 54%, 11%);
+    --Verydarkblue2: hsl(216, 50%, 16%);
+    --Verydarkblue3: hsl(215, 32%, 27%);
+    --White: hsl(0, 0%, 100%);
+}
+
+body{
+    height: 100%;
+    background-color: var(--Verydarkblue1);
+    font-family: 'Outfit', sans-serif;
+    color: var(--Softblue);
+}
+
+.conteiner{
+    margin: 200px auto;
+    border-radius: 15px;
+    width: 335px;
+    height: 570px;
+    padding: 27px;
+    background-color: var(--Verydarkblue2);
+}
+
+.image{
+
+    width: 279px;
+    height: 277px;
+    background-size: contain;
+    background-position: center;
+    border-radius: 15px;
+}
+
+.info{
+    padding: 30px 5px;
+}
+
+.info h1{
+    font-size: 23px;
+    padding-bottom: 15px;
+    color: white;
+}
+
+.description{
+    line-height: 25px;
+    padding-bottom: 22px;
+    padding-right: 10px;
+}
+
+.days{
+    display: flex;
+    align-items: center;
+    color: var(--Softblue);
+    padding-bottom: 15px;
+}
+
+.info2{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    color: var(--Cyan);
+    padding-bottom: 15px;
+}
+
+.sub_info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.infoFooter{
+    display: flex;
+    width: 273px;
+    height: 60px;
+    padding-top: 20px;
+    border-top:solid 1px var(--Softblue);
+}
+
+.img{
+    background-image: url('./images/image-avatar.png');
+    background-position: center;
+    background-size: contain;
+    width: 32px;
+    height: 32px;
+    border: 1px solid white;
+    border-radius: 50%;
+
+}
+
+.image2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.creation{
+    padding-left: 15px;
+}
+.sub-creation{
+    color: white;
+}
+
+
+.image2:hover{
+    background-color:hsla(178, 100%, 50%, 0.479);
+    border-radius: 15px;
+}
+
+.a{
+    display: none;
+}
+
+.image2:hover .a{
+    display: block;
+}
+
+h1:hover{
+    color: var(--Cyan);
+}
+
+.sub-creation:hover{
+    color: var(--Cyan);
+}
